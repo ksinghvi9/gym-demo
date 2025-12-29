@@ -1,0 +1,248 @@
+.navbar {
+    background-color: rgb(84, 96, 99);
+    padding: 20px;
+    margin: 0px;
+}
+
+.active {
+    margin: 0px 98px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    background-image: url(https://media.istockphoto.com/id/875207140/photo/sport-background-with-fitness-equipment-in-gym-gym.jpg?s=612x612&w=0&k=20&c=VEpZIAJ3wdlwHwvWuLumDmpsWczobiSH5kL981H5Cvk=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+#logo {
+    width: 550px;
+    height: 550px;
+    position: relative;
+    left: 471px;
+    bottom: 100px;
+}
+
+#title {
+    text-align: center;
+    position: relative;
+    top: 530px;
+    left: 13px;
+    font-size: 50px;
+}
+
+#description {
+    text-align: center;
+    position: relative;
+    top: 500px;
+    left: 20px;
+    font-size: 20px;
+}
+
+.stats {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    font-family: "Alfa Slab One", serif;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.link {
+    display: none;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .navbar {
+
+        padding: 12px;
+        margin: 0px;
+    }
+
+    .active {
+        margin: 0px 98px;
+
+    }
+
+    #search {
+        display: none;
+    }
+
+    #logo {
+        position: relative;
+        left: 250px;
+    }
+
+    #title {
+        position: relative;
+        top: 554px;
+        left: 14px;
+        font-size: 56px;
+    }
+
+    #description {
+        position: relative;
+        top: 530px;
+        left: 32px;
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        padding: 12px;
+        margin: 0px;
+    }
+
+    .active {
+        margin: 0px 66px;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #logo {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        left: 186px;
+        bottom: 5px;
+    }
+
+    #title {
+        position: relative;
+        top: 510px;
+        left: 17px;
+        font-size: 62px;
+    }
+
+    #description {
+        position: relative;
+        top: 480px;
+        left: 20px;
+        font-size: 25px;
+    }
+
+    .stats {
+        position: relative;
+        bottom: -70px;
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .active {
+        margin: 0px 28px;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #logo {
+        width: 200px;
+        height: 200px;
+        left: 140px;
+        top: 40px;
+    }
+
+    #title {
+        position: relative;
+        top: 400px;
+        left: 10px;
+        font-size: 42px;
+    }
+
+    #description {
+        position: relative;
+        top: 380px;
+        left: 15px;
+        font-size: 20px;
+    }
+
+    .stats {
+        position: relative;
+        bottom: -50px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .active {
+        margin: 0px 28px;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #description {
+        position: relative;
+        top: 380px;
+        left: 3px;
+        font-size: 16px;
+    }
+
+    .stats {
+        position: relative;
+        top: 180px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .active {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #logo {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 50px;
+        top: 200px;
+    }
+
+    #title {
+        position: relative;
+        top: 630px;
+        left: 0px;
+        font-size: 58px;
+
+    }
+    #description {
+        position: relative;
+        top: 600px;
+        left: 0px;
+        font-size: 20px;
+
+    }
+
+    .stats {
+        display: none;
+    }
+
+    .less {
+        display: block;
+    }
+
+}
