@@ -1,1 +1,2 @@
 # gym-demo
+This is my demo gym website. It is completely structured and coded by me. This is just to show my potential. If you like this pls contact me on my accounts, I take work from client and make website responsive as per their need. Hope you like it. Thank You
